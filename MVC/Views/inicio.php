@@ -69,7 +69,7 @@ if (!isset($_SESSION['user_id'])) {
         </div>
         <!-- PRESTAMOS -->
         <div class="menu2">
-            <img src="../Controllers/Img/Books(1).png">
+            <img src="../Img/Books(1).png">
             <br> <br>
             <h2>Prestamos</h2>
             <br>
@@ -77,7 +77,7 @@ if (!isset($_SESSION['user_id'])) {
         </div>
         <!-- RESERVAS -->
         <div class="menu2">
-            <img src="../Controllers/Img/reserva.png" alt="">
+            <img src="../Img/reserva.png" alt="">
             <br> <br>
             <h2>Reservas</h2>
             <br>
@@ -97,7 +97,7 @@ if (!isset($_SESSION['user_id'])) {
                 <?php
 
                 ?>
-                <img src="../Controllers/Img/con tal de verte volar.jpg" alt="">
+                <img src="../Img/con_tal_de_verte_volar.jpg" alt="">
             </div>
             <div class="text">
                 <?php echo $descripcion;?>
@@ -107,33 +107,33 @@ if (!isset($_SESSION['user_id'])) {
         <div class="destacados">
             <!-- CON TAL DE VERTE VOLAR -->
             <div class="books_destacados">
-                <img src="../Controllers/Img/con tal de verte volar.jpg" alt="">
+                 <img src="../Img/con_tal_de_verte_volar.jpg" alt="">
                 <h3>Autor: Miguel Gane</h3>
             </div>
             <!-- LA DIVINA COMEDIA -->
              
             <div class="books_destacados">
-                <img src="../Controllers/Img/la divina comedia.jpg" alt="">
+                <img src="../Img/la_divina_comedia.jpg" alt="">
                 <h3>Autor: Dante Alighieri</h3>
             </div>
             <!-- LATIDOS QUE NO DIJE -->
             <div class="books_destacados">
-                <img src="../Controllers/Img/Latidos que no dije.jpg" alt="">
+                <img src="../Img/Latidos_que_no_dije.jpg" alt="">
                 <h3>Autor: Roos</h3>
             </div>
             <!-- LA METAMOROFSIS -->
             <div class="books_destacados">
-                <img src="../Controllers/Img/metamorfosis.jpg" alt="">
+                <img src="../Img/metamorfosis.jpg" alt="">
                 <h3>Autor: Franz Kafka</h3>
             </div>
             <!-- RETARATO DE DORYAN GRAY -->
             <div class="books_destacados">
-                <img src="../Controllers/Img/retrato.jpg" alt="">
+                <img src="../Img/retrato.jpg" alt="">
                 <h3>Autor: Oscar wilde</h3>
             </div>
             <!-- DIARIO DE GREG -->
             <div class="books_destacados">
-                <img src="../Controllers/Img/diario-de-greg--644x950.jpg" alt="">
+                <img src="../Img/diario-de-greg--644x950.jpg" alt="">
                 <h3>Autor: Jeff Kinney</h3>
             </div>
         </div>
