@@ -15,7 +15,7 @@
     align-items: center;
     justify-content: space-evenly;
     padding: 5px;
-    /*background-color: #dfdfdf;*/
+    background-color: #dfdfdf;
     box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.5); /* Sombra */
 }
 .nuevoLibro h2{
