@@ -1,0 +1,329 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #444;
+    font-weight: bold;
+}
+
+body{
+    background-color: #dfdfdf;
+}
+
+/* HEADER */
+.header{
+    padding: 25px;
+}
+
+/* MENU */
+.inicio{
+    width: 1300px;
+    height: 155px;
+    background-color:rgb(122, 30, 30);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    /* padding: 10px; */
+    border-radius: 8px;
+}
+
+/* DIV LOGO */
+.logo{
+    width: 130px;
+    height: 140px;
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+/* IMG LOGO */
+.imglogo{
+    width: inherit;
+    height: 107px;
+    background-image: url(../../Img/logo.png);
+    background-size: cover;
+    background-color: rgb(68, 88, 88);
+}
+/* DIV BARRA DE BUSQUEDA */
+.barraBusqueda{
+    width: 500px;
+    height: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    padding: 5px;
+    /* background-color: aqua; */
+}
+/* BARRA DE BUSQUEDA */
+.cuadroP{
+    height:20px;
+    width:350px;
+    border-radius:7px;
+    color: black;
+    border: 2px solid #444;
+    padding: 8px;
+}
+/* BOTON DE LA BARRA DE BUSQUEDA */
+.barraBusqueda button{
+    width: 80px;
+    height: 38px;
+    background-color: rgb(165, 165, 165);
+    border: none;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+/* SESION */
+.sesion{
+    width: 420px;
+    height: 55px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    /* background-color: #442c2c; */
+}
+
+/* SESION NOMBRE */
+.sesionNombre{
+    width: 180px;
+    height: 30px;
+    text-align: center;
+    align-content: center;
+    border-radius: 5px;
+    background-color: rgb(112, 136, 202);
+    color: #fff;
+    padding: 4px;
+    box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.4); /* Sombra */
+    transition: box-shadow 0.3s ease; /* Efecto de transición para la sombra */
+}
+.sesionNombre:hover {
+    box-shadow: 4px 8px 12px rgba(112, 136, 202, 0.6); /* Sombra más intensa al pasar el mouse */
+}
+/* CERRAR SESION */
+.cerrarSesion{
+    width: 180px;
+    height: 30px;
+    text-align: center;
+    align-content: center;
+    border-radius: 5px;
+    background-color: rgb(180, 99, 99);
+    padding: 4px;
+    cursor: pointer;
+    box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.4); /* Sombra */
+    transition: box-shadow 0.3s ease; /* Efecto de transición para la sombra */
+}
+.cerrarSesion:hover {
+    box-shadow: 4px 8px 12px rgba(189, 99, 99, 0.6); /* Sombra más intensa al pasar el mouse */
+}
+.cerrarSesion a{
+    color: #fff;
+    text-decoration: none;
+}
+.cerrarSesion a:hover{
+    text-decoration: underline;
+}
+
+/* BANNER */
+.banner{
+    width: 1295px;
+    height: 600px;
+    background-image: url(../../Controllers/Img/baner2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    margin-left: 30px;
+    background-color:aqua;
+}
+/* CATALOGOS, PRESTAMOS, RESERVAS */
+.opciones{
+    margin: 25px;
+    width: 1295px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    /* background-color: azure; */
+    margin-left: 30px;
+}
+
+.menu2{
+    /* background-color: bisque; */
+    width: 200px;
+    height: 200px;
+    padding: 5px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.menu2 img{
+    width: inherit;
+    height: inherit;
+}
+/* BOTON IR */
+.ir{
+    width: 100px;
+    height: 20px;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: rgb(112, 136, 202);
+    align-content: center;
+    margin-left: 50px;
+    box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.4);
+    transition: box-shadow 0.3s ease;
+    border: none;
+}
+.ir a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.ir:hover {
+    box-shadow: 4px 8px 12px rgba(12, 37, 105, 0.7);
+}
+
+/* TITLE */
+.title{
+    margin: 35px;
+    padding: 10px;
+    text-align: center;
+}
+
+
+/* LIBROS DESTACADOS */
+.books{
+    width: 1300px;
+    height: 920px;
+    /* background-color: antiquewhite; */
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+    margin-left: 1%;
+}
+/* LIBRO PRINCIPAL */
+.destacado{
+    width: 300px;
+    height: 650px;
+    background-color: rgb(250, 250, 250);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    padding: 15px;
+    cursor: pointer;
+    /* margin-top: 5%; */
+}
+.img{
+    width: 300px;
+    height: 400px;
+    /* background-color: #2b2828; */
+    
+}
+.img img{
+    width: inherit;
+    height: inherit;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.text{
+    /* background-color: aqua; */
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    text-align: justify;
+    padding: 12px;
+    border-bottom: 2px solid #2b2828;
+}
+/* RESTO DE LIBROS */
+.destacados{
+    /* background-color: blue; */
+    width: 950px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 4px;
+}
+
+.books_destacados{
+    /* background: yellowgreen; */
+    width: 250px;
+    height: 380px;
+    gap: 15px;
+    margin: 5px;
+    padding: 28px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.books_destacados img{
+    width: inherit;
+    height: inherit;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+
+
+.direccion{
+    width:300px;
+    height:0px;
+    font-family:Century Gothic;
+    position:relative;
+    text-align: center;
+    font-size:150%;
+    bottom:-100px;
+    left:130px;     
+}
+
+/* PIE DE PAGINA */
+.direccion1{
+    width:300px;
+    height:-0px;
+    font-family:Century Gothic;
+    position:relative;
+    text-align: center;
+    font-size:150%;
+    bottom:-90px;
+    left:800px;     
+}
+
+.s{
+    position: relative;
+    bottom:10px;
+}
+
+
+.lf{
+    position: relative;
+    left:-30%
+}
+
+.lt{
+    position: relative;
+    left:-30%;
+}
+
+.b{
+    position: relative;
+    bottom:118px;
+    left: 10%;
+}
+
+.s{
+    position: relative;
+    bottom:80px;
+    left: 10%;
+}
+
+.Horarios{
+    width:300px;
+    height:0px;
+    font-family:Century Gothic;
+    position:relative;
+    text-align: center;
+    font-size:150%;
+    bottom:-100px;
+    left:1430px;     
+}

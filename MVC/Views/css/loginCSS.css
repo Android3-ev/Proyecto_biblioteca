@@ -1,0 +1,90 @@
+/* RESET */
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #fff;
+}
+
+/* CENTRAMOS LOS ELEMENTOS */
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* FONDO */
+.fondo {
+    background-image: url(../../Img/login.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 710px;
+    transition: filter 0.3s ease;
+}
+
+/* CAMBIO DE BRILLO */
+.fondo:hover {
+    filter: brightness(30%);
+}
+
+/* CONTENEDOR DEL FORMULARIO */
+.contenedor{
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+    background-color: #b1b1b1d5;
+}
+
+/* FORMULARIO */
+form{
+    width: 400px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    /* background-color: aquamarine; */
+}
+
+input{
+    width: inherit;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+    color: black;
+    padding: 20px;
+}
+
+/* LINK DE INVITADO */
+a{
+    text-decoration: none;
+}
+
+a h3{
+    /* font-size: 20px; */
+    color: rgba(28, 28, 192, 0.89);
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+/* BUTTON */
+button{
+    width: 400px;
+    height: 50px;
+    color: #fff;
+    text-align: center;
+    font-size: 22px;
+    background-color:rgb(33, 21, 109);
+    cursor: pointer;
+    border: none;
+}
+

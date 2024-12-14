@@ -1,0 +1,76 @@
+/* RESET */
+*{
+    margin: 0%;
+    padding: 0%;
+    color: #444;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.opciones{
+    width: 350px;
+    height: 625px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 5px;
+    background-color: #dfdfdf;
+    box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.5); /* Sombra */
+}
+.nuevoLibro h2{
+    color: #fff;
+}
+
+.nuevoLibro{
+    width: inherit;
+    height: 70px;
+    text-align: center;
+    align-content: center;
+    border-radius: 5px;
+    background-color: rgb(112, 136, 202);
+    cursor: pointer;
+}
+
+.reservas{
+    width: inherit;
+    height: 70px;
+    text-align: center;
+    align-content: center;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #dfdfdf;
+}
+.reservas h2{
+    width: inherit;
+}
+
+.reservas:hover{
+    background-color: rgb(112, 136, 202);
+}
+.reservas h2:hover{
+    color: #fff;
+}
+
+.prestamos{
+    width: inherit;
+    height: 70px;
+    text-align: center;
+    align-content: center;
+    border-radius: 5px;
+    cursor: pointer;
+    /* background-color: cadetblue; */
+}
+
+.usuarios{
+    width: inherit;
+    height: 70px;
+    text-align: center;
+    align-content: center;
+    border-radius: 5px;
+    cursor: pointer;
+    /* background-color: cadetblue; */
+}
+
+
+
