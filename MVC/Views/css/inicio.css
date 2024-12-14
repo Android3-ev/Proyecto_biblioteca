@@ -130,7 +130,7 @@ body{
 .banner{
     width: 1295px;
     height: 600px;
-    background-image: url(../../Controllers/Img/baner2.jpg);
+    background-image: url(../../Img/baner2.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 10px;
